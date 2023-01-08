@@ -139,21 +139,28 @@ footer{
         margin:0% 3%;
     }
     }
-.heading{
-    margin-left: 700px;
-    font-weight: 500;
+.heading1{
+    /* margin-left: 700px; */
+    
+    font-weight: 500px;
     font-size: 65px;
     color: #fe0000;
     margin-top: 100px;
-    
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
 }
 .format {
-    text-align: left;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    text-align: justify;
+    
 }
 .heading2 {
     color: red;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
+    margin: 10px;
 }
