@@ -1,27 +1,1165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Project Description </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Description</title>
     <link rel="stylesheet" href="styles/project_des.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;700&display=swap" rel="stylesheet">
-
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/Tinmate_logo.png" type="image/icon type" />
+  </head>
+  <body>
     <header class="navbar">
-        <img class="logo" src="img/Tinmate_logo.png">
-        <nav>
-            <ul class="nav_links"> 
-                <li><a href="index.html"> Home</a></li>
-                <li><a href="teamprofile.html">Team Profile</a></li>
-                <li><a href="tool.html"> Tools</a></li>
-                <li><a href="#">Project Description </a></li>
-                <li><a href="#">Skills and Jobs</a></li>
-                <li><a href="#"> Group Reflections</a></li>
-                <li><a href="#"> References</a></li>
-            </ul>
-        </nav>
-</body>
+      <img class="logo" src="img/Tinmate_logo.png" />
+      <nav>
+        <ul class="nav_links">
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="teamprofile.html">Team Profile</a></li>
+          <li><a href="tool.html"> Tools</a></li>
+          <li><a href="project_description.html">Project Description </a></li>
+          <li><a href="skillnjob.html">Skills and Jobs</a></li>
+          <li><a href="group_reflection.html"> Group Reflections</a></li>
+          <li><a href="references.html"> References</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div
+      id="heading"
+      style="
+        font-size: 40px;
+        margin-top: 0px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Barlow', sans-serif;
+      "
+    >
+      Project Description
+    </div>
+    <section id="content" class="content">
+      <div>
+        <div class="title2">OVERVIEW</div>
+        <ul class="list">
+          <li class="general-info">Motivation</li>
+          <div class="info">
+            A key component of professional growth at universities might be
+            regarded to be inter-professional abilities, notably teamwork in
+            this study. It operates at the human level via cultural and
+            knowledge aspects when it reaches the community level, which means
+            that professional viewpoint may cause conflict and moral ambiguity
+            about professional duties in project management [1]. In addition,
+            challenges might arise from unease, ambiguous job assignment,
+            diverse work cultures, and conflicting versions of information [2].
+            Therefore, it is advised that students actively seek out teammates
+            that meet their expectations when it comes to collaboration. This
+            will ensure that the relationships between team members are
+            positive, resulting in their willingness to assist, accept, and like
+            one another [3].
+            <br />
+            Group assignments were prioritised in the majority of the courses
+            offered ever since RMIT acknowledged the value of teamwork. In
+            face-to-face classrooms, on Canvas, or via social media, RMIT
+            students may discover teammates both online and offline. However, as
+            there isn't yet a platform designed just for RMIT students, their
+            messages may not reach the correct people, and it will take a lot of
+            effort for them to connect and share information to make sure their
+            potential teammates fit their expectations. After identifying the
+            insights, our group created TinMate, a website that helps RMIT
+            students discover teammates.
+          </div>
+          <li class="general-info">Topic and Landscape</li>
+          <div class="info">
+            Since gen Z is using dating apps more and more, especially Tinder
+            [4], which is the most popular app in the field, we decided to make
+            the UI/UX of the TinMate website similar to Tinder to make it more
+            user-friendly and familiar. The site will work like other dating
+            apps, but in this prototype, the filter and its criteria will be
+            changed to match the site's goal, which is to find teammates. For
+            example, the GPA, the goal and strengths of the team, etc., will be
+            used as filters. Also, familiar features of dating apps like viewing
+            profiles, UI chat boxes, matching, SuperLike, and reporting will
+            stay the same. Also, since this site is only for RMIT students, you
+            will need to show a screenshot of your student ID card when you sign
+            in.
+            <br />
+            After that, we realised that, even though there are a lot of
+            international and exchange students at RMIT, most of the posts about
+            finding teammates on social media are in Vietnamese. This makes it
+            hard for international students to understand and respond to the
+            posts, and it's also a shame for local students because they might
+            miss the chance to meet the right teammates. So, (name of website)
+            will only use English to make sure everything works together.
+            <br />
+            It is hoped that the TinMate website will not only fix the problems
+            with the old ways, but also give tech-savvy RMIT students a new,
+            fun, and easy way to find teammates by using the same UI/UX as
+            dating apps. Taking everything into account, our team thinks that
+            this site can help RMIT students save time and effort while still
+            being able to work with the people they were supposed to work with.
+          </div>
+        </ul>
+
+        <div class="title2">DETAILED DESCRIPTION</div>
+        <!--Aim-->
+
+        <div
+          id="Aim_t"
+          class="trigger"
+          style="padding-left: 30px"
+          title="Click to hide content"
+          onclick="toggle_show_and_hide('Aim')"
+        >
+          <div id="Aim_tri" class="cont_tri" style="display: inline-block">
+            &#8227;
+          </div>
+          Aim
+        </div>
+        <div
+          id="Aim"
+          class="info"
+          style="display: none; font-style: italic; text-align: center"
+        >
+          “We aim to provide a personalized, interesting and new site for RMIT
+          students to handle their difficulty in finding teammates and building
+          networks”.
+          <br />
+          OUR GOALS
+          <br />
+          <img src="img/goal.png" />
+        </div>
+
+        <!--Plan and Progress-->
+
+        <div
+          id="plan_pro_t"
+          class="trigger"
+          style="padding-left: 30px"
+          title="Click to hide content"
+          onclick="toggle_show_and_hide('plan_pro')"
+        >
+          <div id="plan_pro_tri" class="cont_tri" style="display: inline-block">
+            &#8227;
+          </div>
+          Plan and Progress
+        </div>
+        <ul id="plan_pro" class="list" style="margin-top: 0px; display: none">
+          <li class="general-info">Plan</li>
+          <div id="Plan" class="info">
+            Even though there are many other methods for the software
+            development life cycle, our team decided to use Scrum as our main
+            way to work together. This is because we need an agile framework
+            that is quick, flexible, and efficient. As a result, Scrum makes it
+            easier to build and deliver products during our development phase
+            <div class="break"></div>
+            <img
+              src="img/firgure1.png"
+              style="
+                display: block;
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+              "
+            />
+            <div class="break"></div>
+            In addition, we decided to use the Trello Management Board to keep
+            track of our progress and allocate tasks to each member every week
+            (equivalent to every sprint).
+            <div class="break"></div>
+            <img
+              src="img/trello.png"
+              style="
+                display: block;
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+              "
+            />
+            <div class="break"></div>
+            Figure : Trello Management Board
+            <div class="break"></div>
+            For more information about our Trello Management Board, please refer
+            to Appendix A: Trello Management Board
+            <div class="break"></div>
+            <ol class="general-info" style="text-indent: 50px">
+              Product Backlog
+            </ol>
+            The list of prioritised work is given to each teammate after weekly
+            meetings. The most important tasks are put at the top of the backlog
+            so the development and designing team knows what to work on first.
+            If issues arise or improvements are made, the Scrum Master - An -
+            regularly reviews, updates, and reorders tasks
+            <ol class="general-info" style="text-indent: 50px">
+              Sprint Backlog
+            </ol>
+            A Sprint Backlog is a detailed strategy that aims to complete
+            specific Product Backlog activities. The Sprint Backlog is
+            constantly reviewed every week to see if our team is on track.
+            <ol class="general-info" style="text-indent: 50px">
+              Weekly Meeting
+            </ol>
+            Weekly meetings are often held on Sunday so that all team members
+            have time to discuss. We go over what we have done, what we are
+            doing and what we are going to do. Additionally, team members
+            highlight the challenges they are facing so that everyone can debate
+            them and find solutions. Finally, we often kept track of our
+            progress throughout the week by recording in the Meeting Minutes.
+            <ol class="general-info" style="text-indent: 50px">
+              Project background story
+            </ol>
+            During our Initiation Phase, we had a team meeting to think about
+            what kind of project that we should develop. We were aiming for
+            something innovative and unique. Additionally, the project should
+            also have the objective of helping RMIT students. It took us a while
+            for us to finally come up with something like a Tinder-clone but
+            with an educational intention, which is searching for teammates. If
+            you don’t know about Tinder, basically it’s a dating social network
+            where you can see the details (or biography) of other people such as
+            their interests, occupations, ages, etc. As we all had used Tinder
+            before, we had no trouble imagining how our project would work.
+            <div class="break"></div>
+            Moving on to the Planning and Estimation Phase, we had another
+            meeting to decide what tools that we should use and tasks allocation
+            for each member. We agreed that we would use GitHub as our version
+            control system and code hosting platform. About the Technologies, at
+            first, we decided to only make the user interface for our
+            tinder-clone website with the use of HTML and CSS. However, upon
+            some discussions, we then decided to use the basic ReactJS and take
+            advantage of the ‘tinder-card-swipe’ module in the NPM package with
+            CSS and in-line CSS.
+            <div class="break"></div>
+            The final obstacle that we face is with the deployment of the
+            website, as we also aim for the interactive and responsive design,
+            we choose Netlify for our deployment platform. However, it was very
+            difficult and prone-to-error due to the number of bugs that we
+            encountered and our lack of knowledge for Javascript. At the end,
+            thanks to our persistence, we overcame all difficulties and
+            finalised our web app. With that being said, as we often finished
+            our allocated tasks early, we decided to go overboard and turn our
+            website into a web app.
+          </div>
+
+          <li class="general-info">Progress</li>
+          <div id="Progress" class="info">
+            <table>
+              <tr class="table_title">
+                  <th>TASKS/PHASES</th>
+                  <th>ASSIGNED TO</th>
+                  <th>STATUS</th>
+                  <th>START</th>
+                  <th>END</th>
+                  <th>NOTES</th>
+              </tr>
+              <tr>
+                  <td colspan="6" style="background-color: rgb(55, 160, 247);
+                  color: white;
+                  text-transform: uppercase;"><b>Initiation phase</b></td>
+              </tr>
+              <tr>
+                  <td>Research and Discovery </td>
+                  <td>ALL </td>
+                  <td>100% </td>
+                  <td>10/24/22 </td>
+                  <td>10/27/22 </td>
+                  <td>Brainstorm ideas based on mutual interests </td>
+              </tr>
+              <tr>
+                  <td>Topic Discussion </td>
+                  <td>ALL </td>
+                  <td>100% </td>
+                  <td>10/27/22 </td>
+                  <td>10/29/22 </td>
+                  <td>Identify project objectives and scope </td>
+              </tr>
+              <tr>
+                  <td>Set up GitHub repository </td>
+                  <td>An Do </td>
+                  <td>100% </td>
+                  <td>10/29/22 </td>
+                  <td>11/2/22 </td>
+                  <td>Project code hosting platform </td>
+              </tr>
+              <tr>
+                  <td>Set up Trello board and Discord channel </td>
+                  <td>An Do, Q. Anh </td>
+                  <td>100% </td>
+                  <td>11/2/22 </td>
+                  <td>11/6/22 </td>
+                  <td>Project communication management </td>
+              </tr>
+              <tr>
+                  <td>Get familiar with HTML, CSS </td>
+                  <td>ALL </td>
+                  <td>100% </td>
+                  <td>10/28/22 </td>
+                  <td>11/27/22 </td>
+                  <td>For designing the UI/UX of the project </td>
+              </tr>
+              <tr style="background-color: rgb(246, 165, 67);
+              color: white;
+              text-transform: uppercase;">
+                  <td colspan="6"><b>Planning and Estimation phase</b></td>
+              </tr>
+              <tr>
+                  <td><b>Writing Project Proposal draft</b></td>
+                  <td></td>
+                  <td>100% </td>
+                  <td>11/7/22 </td>
+                  <td>11/13/22 </td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>People </td>
+                  <td>ALL </td>
+                  <td>100% </td>
+                  <td>11/7/22 </td>
+                  <td>11/13/22 </td>
+                  <td rowspan="6">Project Proposal early feedback</td>
+              </tr>
+              <tr>
+                  <td>Topic  </td>
+                  <td>Phuoc </td>
+                  <td>100% </td>
+                  <td>11/7/22 </td>
+                  <td>11/13/22 </td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Scope </td>
+                  <td>An Do, T. Anh </td>
+                  <td>100% </td>
+                  <td>11/7/22 </td>
+                  <td>11/13/22 </td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Communication </td>
+                  <td>T. Anh </td>
+                  <td>100% </td>
+                  <td>11/7/22 </td>
+                  <td>11/13/22 </td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Timetable </td>
+                  <td>An Do </td>
+                  <td>100% </td>
+                  <td>11/7/22 </td>
+                  <td>11/13/22 </td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Risks </td>
+                  <td>Phuoc, P. Anh </td>
+                  <td>100% </td>
+                  <td>11/7/22 </td>
+                  <td>11/13/22 </td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Finalised Project Proposal draft </td>
+                  <td>ALL </td>
+                  <td>100% </td>
+                  <td>11/13/22 </td>
+                  <td>11/20/22 </td>
+                  <td>Finished the project proposal based on the received feedbacks </td>
+              </tr>
+              <tr>
+                  <td>Setting up product and sprint backlog on Trello </td>
+                  <td>An Do </td>
+                  <td>70% </td>
+                  <td>11/13/22 </td>
+                  <td>11/20/22 </td>
+                  <td>Update the Trello board in details </td>
+              </tr>
+              <tr>
+                <td colspan="6" style="background-color: rgb(249, 243, 49);
+                color: white;
+                text-transform: uppercase;"><b>Design and Reviewing phase</b></td>
+
+            </tr>
+            <tr>
+                <td>Draw UI Prototype </td>
+                <td>Phuoc, P. Anh, T. Anh </td>
+                <td>100% </td>
+                <td>11/20/22 </td>
+                <td>12/24/22 </td>
+                <td>Using Figma and Canva  to prototype website pages</td>
+            </tr>
+            <tr>
+                <td><b>Building Basic Features/Pages:</b> </td>
+                <td> </td>
+                <td>100% </td>
+                <td>11/25/22 </td>
+                <td>5/1/23 </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Login/Sign up </td>
+                <td> </td>
+                <td> </td>
+                <td>11/26/22 </td>
+                <td>12/10/22 </td>
+                <td rowspan="6">Website UI/UX development </td>
+            </tr>
+            <tr>
+                <td>Landing Page </td>
+                <td>Q. Anh, Phuoc </td>
+                <td></td>
+                <td>11/27/22 </td>
+                <td>12/12/22 </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Homepage/ Newsfeed </td>
+                <td>ALL </td>
+                <td></td>
+                <td>11/28/22 </td>
+                <td>12/14/22 </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mission Page </td>
+                <td>An Do </td>
+                <td></td>
+                <td>11/29/22 </td>
+                <td>12/16/22 </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Chat Screen and Matching Buttons </td>
+                <td>T. Anh,  </td>
+                <td></td>
+                <td>11/30/22 </td>
+                <td>12/18/22 </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>User Profile </td>
+                <td>Q. Anh, T. Anh </td>
+                <td></td>
+                <td>12/1/22 </td>
+                <td>12/20/22 </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td><b>Building Advanced Features:</b> </td>
+                <td>Q. Anh, T. Anh </td>
+                <td></td>
+                <td>11/26/22 </td>
+                <td>7/1/23 </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Swiping Tinder Card </td>
+                <td> </td>
+                <td></td>
+                <td>11/28/22 </td>
+                <td>7/17/22 </td>
+                <td rowspan="6">Improving website so that it is user-centred </td>
+            </tr>
+            <tr>
+                <td>Chat box </td>
+                <td> </td>
+                <td></td>
+                <td>11/30/22 </td>
+                <td>12/9/22 </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>System Notifications </td>
+                <td>An Do </td>
+                <td></td>
+                <td>12/5/22 </td>
+                <td>31/12/22 </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Filter Tab </td>
+                <td> </td>
+                <td></td>
+                <td>12/15/22 </td>
+                <td>1/1/23 </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Header/Navigation Bar </td>
+                <td> </td>
+                <td></td>
+                <td>12/2/22 </td>
+                <td>12/11/22 </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td><b>System UI/UX Reviewing and Testing</b> </td>
+                <td>ALL </td>
+                <td></td>
+                <td>12/1/22 </td>
+                <td>10/1/23 </td>
+            </tr>
+            <tr>
+              <td colspan="6" style="background-color: rgb(71, 210, 101);
+              color: white;
+              text-transform: uppercase;"><b>Releasing phase</b></td>
+          </tr>
+          <tr>
+              <td>Website deployment on Netlify </td>
+              <td>An Do </td>
+              <td>100% </td>
+              <td>12/22/22 </td>
+              <td>12/15/22 </td>
+              <td>Product deployed online </td>
+          </tr>
+          <tr>
+              <td> <b>Prepare project presentation + demo:</b> </td>
+              <td>ALL </td>
+              <td>100% </td>
+              <td>12/31/22 </td>
+              <td>1/8/23 </td>
+              <td> </td>
+          </tr>
+          <tr>
+              <td>Introduction and Problem Statement </td>
+              <td>Phuoc </td>
+              <td> </td>
+              <td>12/31/22 </td>
+              <td>1/8/23 </td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>Goal and Market Size </td>
+              <td>Quynh Anh </td>
+              <td></td>
+              <td>12/31/22 </td>
+              <td>1/8/23 </td>
+              <td rowspan="3">Product Presentation </td>
+          </tr>
+          <tr>
+              <td>Product demonstration </td>
+              <td>An Do </td>
+              <td></td>
+              <td>12/31/22 </td>
+              <td>1/8/23 </td>
+              <td> </td>
+          </tr>
+          <tr>
+              <td>Product Pitching to Investor </td>
+              <td>Tuan Anh </td>
+              <td></td>
+              <td>12/31/22 </td>
+              <td>1/8/23 </td>
+              <td> </td>
+          </tr>
+          <tr>
+              <td> <b>Write final report:</b> </td>
+              <td>ALL </td>
+              <td>100% </td>
+              <td>5/1/23 </td>
+              <td>14/1/23 </td>
+              <td> </td>
+          </tr>
+          <tr>
+              <td>Team Profile </td>
+              <td>ALL </td>
+              <td> </td>
+              <td></td>
+              <td></td>
+              <td> </td>
+          </tr>
+          <tr>
+              <td>Tool, Group HTML report and Scopes </td>
+              <td>T. Anh, Q. Anh </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td rowspan="6">Project Final Report </td>
+          </tr>
+          <tr>
+              <td>Project Description  </td>
+              <td>Phuoc </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td> </td>
+          </tr>
+          <tr>
+              <td>Plan and Progress, Tools and Technologies, Project outcomes/ Product Prototype </td>
+              <td>An Do </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td> </td>
+          </tr>
+          <tr>
+              <td>Risks </td>
+              <td>Q. Anh, Phuoc </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td> </td>
+          </tr>
+          <tr>
+              <td>Group processes and communication </td>
+              <td>Tuan Anh </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td> </td>
+          </tr>
+          </table>
+          </div>
+        </ul>
+
+        <!--Roles-->
+        <div
+          id="roles_t"
+          class="trigger"
+          style="padding-left: 30px"
+          title="Click to hide content"
+          onclick="toggle_show_and_hide('roles')"
+        >
+          <div id="roles_tri" class="cont_tri" style="display: inline-block">
+            &#8227;
+          </div>
+          Roles
+        </div>
+        <div id="roles" class="info" style="display: none; margin-left: 30px">
+          In the first three weeks, we have assigned each role for each member
+          based on strength and weakness for the best outcomes. The table below
+          shows details about our roles in this project:
+          <table
+            style="
+              width: 50%;
+              width: 60%;
+              margin-left: auto;
+              margin-right: auto;
+            "
+          >
+            <tr>
+              <td>
+                <b>Do Le Long An (s3963207)</b>
+              </td>
+              <td>
+                <b>Leader / Front-end Developer</b><br />
+                An is the leader, also the front-end developer which is
+                responsible for the front-end of the web applications, he also
+                keeps track of team processes and managing repositories. He has
+                experience with working on a project in developing a web
+                application with solid experience with ReactJS, Python. He is
+                the piece that connects all of us together as one team.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>Bui Tuan Anh (S3970375)</b>
+              </td>
+              <td>
+                <b>Front-end Developer</b><br />
+                Tuan Anh is a front-end developer who is responsible for
+                developing user-facing features and designing web pages
+                alongside An.Tuan Anh has knowledge in Python, and he is
+                learning HTML/CSS in the process, he is passionate about
+                learning new things while building the web app
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>Pham Le Quynh Anh (s3927427)</b>
+              </td>
+              <td>
+                <b>Front-end Developer / UI designer</b><br />
+                Quynh Anh is responsible for coming up and designing the
+                prototype in Figma after discussing it.She is also in-charge
+                with developing the front-end alongside Tuan Anh. Her suggestion
+                is appealing and compelling to other team members. She is also
+                responsible for visualising and developing the demo features.She
+                is qualified for the position since she is capable of balancing
+                different responsibilities.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>Do My Phuoc (s3836234)</b>
+              </td>
+              <td>
+                <b>Researcher and Designer</b> <br />
+                Phuoc is responsible for researching information , news, finding
+                ideas and analysing the potential. She also is the lead designer
+                who decides and drafts the prototype for the application. Phuoc
+                voluntarily took the role for her professional research and
+                report format from her experiences. As we get to know each
+                other, she shows another side, which is the artistic side with
+                mastering Canvas and design skills.
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!--Scope and Limits-->
+
+        <div
+          id="s_lim_t"
+          class="trigger"
+          style="padding-left: 30px"
+          title="Click to hide content"
+          onclick="toggle_show_and_hide('s_lim')"
+        >
+          <div id="s_lim_tri" class="cont_tri" style="display: inline-block">
+            &#8227;
+          </div>
+          Scope and Limits
+        </div>
+        <div id="s_lim" class="info" style="display: none">
+          <ul class="general-info">IN SCOPE</ul>
+          <table>
+            <tr style="background-color: black;
+            color: white;">
+                <td colspan="2">FEATURE</td>
+                <td>DESCRIPTION </td>
+            </tr>
+            <tr>
+                <td colspan="2">Landing Page  </td>
+                <td>This is the page where we give information about the team members as well as the primary logo of the group</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Login Page </td>
+                <td>Users need to enter the account password registered on the website.
+        As for the account, users are required to use email to log in, or they will be denied
+        </td>
+            </tr>
+            <tr>
+                <td colspan="2">Registration Page </td>
+                <td>This is where the users fill in the mandatory registration forms to register for our web app</td>
+            </tr>
+            <tr>
+                <td >Homepage</td>
+                <td>Homepage</td>
+                <td>This is where the main features of the project are located. After users log in, they will be redirected to the Home Page. They can view and adjust their Profile and message with friends who have been matched. Here, users will see other users' tags to find out who fits their group</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Filter Tab</td>
+                <td>Users can filter specific requests about their teammate, such as the Number of courses the person has passed, the Aim and Goal (HD, DI, CR, etc.), and the subject they want to team up with.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Swipe Card</td>
+                <td>Matching works when both users 'Like' each other. If only one of them 'Like', they haven't 'Matching' with each other.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Bio</td>
+                <td>This is where the user will share their essential information in detail regarding strengths, weaknesses, etc., to attract other users to form groups with you.</td>
+            </tr>
+            <tr>
+                <td >Chat box</td>
+                <td>Message</td>
+                <td>Once both users have 'Match' with each other, a message dialog is automatically created and allows you to initiate a conversation.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Report</td>
+                <td>This feature allows users to report users who are texting when they have negative expressions or actions and words that do not match the website's purpose.</td>
+            </tr>
+            <tr>
+                <td>Profile button</td>
+                <td>Profile edit </td>
+                <td>You can view and edit your personal information that is visible to others.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Log out </td>
+                <td>Log out of your account to prevent strangers from using your account.</td>
+            </tr>
+            <tr>
+                <td>Non-
+        Functional Requiremen
+        </td>
+                <td> Notification</td>
+                <td>This feature will work when users enter incorrect information when logging in and notify users when they have just performed a specific action successfully or failed.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Responsive </td>
+                <td>Our website can work on most computer and mobile screens without users needing to zoom in or out when switching to different devices.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> User Interface</td>
+                <td>User-centred design</td>
+            </tr>
+        </table>
+        <ul class="general-info">OUT OF SCOPE</ul>
+          <table>
+            <tr style="background-color: black;
+            color: white;">
+                <td>FEATURE</td>
+                <td>DESCRIPTION</td>
+            </tr>
+            <tr>
+                <td>Smart device operating system </td>
+                <td>To assist students who use the application on both mobile and desktop</td>
+            </tr>
+            <tr>
+                <td>Profile authentication: Linked with RMIT Canvas </td>
+                <td>We will collaborate with the university information team to ensure that the student's information is accurate to strengthen the account's integrity, resulting in successful teammate selection for the students. Additionally, we are dedicated to maintaining the privacy of any provided information.</td>
+            </tr>
+            <tr>
+                <td>Automatically update the latest course code: Linked with RMIT Database</td>
+                <td>Supporting students in making quick and accurate selections of the course's participants</td>
+            </tr>
+          </table>
+          <ul class="general-info">LIMITS</ul>
+            <table style="padding: 20px;">
+              <tr>
+                  <td>The login function cannot check the user's password. Because there is no database, it has not been saved to the system.</td>
+              </tr>
+              <tr>
+                  <td>The site does not have an API to connect to the back end. Therefore, it is still impossible to check the email's authenticity (no security capabilities), and you cannot upload avatars when registering.</td>
+              </tr>
+              <tr>
+                  <td>On the homepage, there is no database and only displayed as User Interface.</td>
+              </tr>
+              <tr>
+                  <td>The information filtering feature is still not working, only displayed as a User Interface</td>
+              </tr>
+              <tr>
+                  <td>The user interface-only messaging function has not been added to the API (Real-time chat).</td>
+              </tr>
+              <tr>
+                  <td>The report function with only UI cannot save data.</td>
+              </tr>
+              <tr>
+                  <td>Regarding the administration, there is no account for the administrator to manage users.</td>
+              </tr>
+            </table>
+        </div>
+
+        <!--Tools and Techs-->
+
+        <div
+          id="tool_tech_t"
+          class="trigger"
+          style="padding-left: 30px"
+          title="Click to hide content"
+          onclick="toggle_show_and_hide('tool_tech')"
+        >
+          <div
+            id="tool_tech_tri"
+            class="cont_tri"
+            style="display: inline-block"
+          >
+            &#8227;
+          </div>
+          Tools and Technologies
+        </div>
+        <div id="tool_tech" class="info" style="display: none">
+          Due to the responsiveness of our system and interactive features, we
+          decided to use the JavaScript framework, ReactJS (n.d.) with Material
+          UI (n.d.) - an open-source React component package that uses Google's
+          Material Design. It comes with a wide range of pre-built parts that
+          can be used right away in production. For Supporting Tools, we use UI
+          Design Tools like Figma (n.d.) and Canva (n.d.). For component
+          prototyping, CodeSandbox (n.d.) is used to help us visualise how our
+          project will look and prototype it.
+        </div>
+
+        <!--Testing-->
+
+        <div
+          id="test_t"
+          class="trigger"
+          style="padding-left: 30px"
+          title="Click to hide content"
+          onclick="toggle_show_and_hide('test')"
+        >
+          <div id="test_tri" class="cont_tri" style="display: inline-block">
+            &#8227;
+          </div>
+          Testing
+        </div>
+        <div id="test" class="info" style="display: none; margin-left: 30px">
+          <ol style="margin-left: 30px">
+            <li class="general-info">Test users</li>
+            <div class="info">
+              Our website is designed to target RMIT students specifically.
+              Hence, besides testing ourselves, our team also invited 10 RMIT
+              students as test users with different ranges of ages, genders and
+              schools, ensuring the diversity of testing phases.
+            </div>
+            <li class="general-info">Testing phase</li>
+            <div class="info">
+              Firstly, our team tested the website to check if the features
+              worked as expected, which were quite successful. Then, we create
+              an online live meeting on Teams with 10 test users as mentioned
+              above. They will receive the link to TinMate website and have a
+              chance to test its features. After that, we ask for their feedback
+              on their experience with TinMate, whether they are satisfied or
+              not, what features they like the most and what things should be
+              improved. Due to the familiarity with Tinder’s UI, TinMate
+              receives compliments from test users about the user-friendliness
+              for even low-tech ones and practical features. Currently, Filter
+              Bar and User Profile are the favourite ones as test users can
+              freely set their aims and goals as well as utilise photos and
+              profile descriptions to increase possibility to find matching
+              teammates. They expressed that they were quite interested in the
+              project and were willing to use it if it is officially published.
+              Additionally, we are also grateful for the constructive comments,
+              which helps us develop tinMate better and deliver a more
+              satisfactory user experience.
+            </div>
+          </ol>
+        </div>
+
+        <!--Timeframe-->
+
+        <div
+          id="timef_t"
+          class="trigger"
+          style="padding-left: 30px"
+          title="Click to hide content"
+          onclick="toggle_show_and_hide('timef')"
+        >
+          <div id="timef_tri" class="cont_tri" style="display: inline-block">
+            &#8227;
+          </div>
+          Timeframe
+        </div>
+        <div id="timef" class="info" style="margin-right: 25px; display: none">
+          
+        </div>
+
+        <!--Risks-->
+
+        <div
+          id="risk_t"
+          class="trigger"
+          style="padding-left: 30px"
+          title="Click to hide content"
+          onclick="toggle_show_and_hide('risk')"
+        >
+          <div id="risk_tri" class="cont_tri" style="display: inline-block">
+            &#8227;
+          </div>
+          Risks
+        </div>
+        <div id="risk" class="info" style="display: none">
+          <div class="break"></div>
+          <ul class="list" style="margin-top: 0px">
+            <li class="title2">A. Internal Risk</li>
+            <ol style="margin-left: 30px">
+              <li class="general-info">Inadequate Expertise</li>
+              <div class="info">
+                Because we don't know much about web design, the final product
+                might not work as well or meet quality standards as the
+                prototype. This could mean that planned scope features can't be
+                finished because there isn't enough time or understanding to
+                prepare. To deal with this, our team will meet twice a week to
+                make sure that the projects and members are working steadily and
+                getting good insurance. The team leader also checks on the
+                member's status and tries to think of all the things that could
+                happen to other members, like missing meetings or quitting. Each
+                member of the team should know what their specific tasks and
+                responsibilities are, and it is recommended that they spend the
+                first few weeks learning the basics of HTML and CSS to help them
+                understand the project and do a better job.
+              </div>
+              <li class="general-info">Scope Creep:</li>
+              <div class="info">
+                The project's scope could change, and the work might be more
+                than what the team can handle or what was initially planned.
+                Scope creep is most often caused by unauthorised changes or
+                miscommunications between members, which can lead to poor
+                performance and design systems. Our team decided to avoid this
+                by making a clear project timeline, scope, and out-of-scope to
+                make sure what the project would include and be able to archive
+                when it was done. We also keep track of the projects' schedules
+                and update the project's scope statement when things change,
+                making sure to find and document any important changes.
+              </div>
+              <li class="general-info">Technical risk: Version control</li>
+              <div class="info">
+                When we all work together to build the website, it's possible
+                that someone will accidentally delete or mess up some lines of
+                code, which would cause the website to crash without us knowing.
+                If someone wants to add a new feature to the website, we will
+                use the git checkout branch command to fix the problem. After
+                that, they can ask the team to look over their work by sending a
+                "pull request." This can make sure the origin master branch is
+                safe.
+                <br />
+                <img
+                  src="img/internal_risk.png"
+                  style="
+                    display: block;
+                    width: 60%;
+                    margin-left: auto;
+                    margin-right: auto;
+                  "
+                />
+              </div>
+            </ol>
+            <li class="title2">B. External Risk</li>
+            <ol style="margin-left: 30px">
+              <li class="general-info">Human error</li>
+              <div class="info">
+                Even though Tinder's user interface and user experience (UI/UX)
+                is used, TinMate only has one goal: to help RMIT students build
+                their professional networks and connect with peers who meet
+                their expectations. There is a chance, though, that some people
+                will use this app for things other than finding teammates or
+                building professional networks. Ellison and Hancock [5] said
+                that one of the main reasons is that traditional signals, like
+                intelligence, skills, characteristics, and so on, are easy to
+                fake online. In the real world, on the other hand, it will be
+                much easier to find out if someone is lying because they can
+                talk to them or watch them. That goes against what TinMate is
+                trying to do because it will take other users longer and more
+                work to find other ones. To deal with the problem of human
+                error, we will tell other users to report any account that seems
+                to be going against TinMate's goal
+              </div>
+              <li class="general-info">Server overload or attack</li>
+              <div class="info">
+                Since the project will be available to all RMIT students, server
+                bottlenecks will happen often at times like the beginning of a
+                semester or course, when students are using the app to find
+                their teammates. When the app gets popular, someone will try to
+                steal our clients' data or DDOS our server, which could lead to
+                a bad user experience, lost customers, and lower profits. We
+                would set up a more powerful server that can handle a large
+                number of users. We will also make sure our website is always
+                up-to-date and back up our data.
+              </div>
+              <li class="general-info">
+                Technical risk: Website future performance
+              </li>
+              <div class="info">
+                We are currently using the out-of-date Material UI v4
+                open-source React component package, which could cause the
+                website to crash in the future. In other words, if we don't do
+                any more maintenance on our website, the API might not be stable
+                enough to handle Material UI v4, which is now in v5, which could
+                cause the website to load very slowly or even crash. So, even
+                after the project is done, we will keep it up-to-date and take
+                care of it on a regular basis.
+              </div>
+            </ol>
+          </ul>
+        </div>
+
+        <!--Group processes and communications-->
+
+        <div
+          id="gr_com_t"
+          class="trigger"
+          style="padding-left: 30px"
+          title="Click to hide content"
+          onclick="toggle_show_and_hide('gr_com')"
+        >
+          <div id="gr_com_tri" class="cont_tri" style="display: inline-block">
+            &#8227;
+          </div>
+          Group processes and communications
+        </div>
+        <div
+          id="gr_com"
+          class="info"
+          style="display: none; margin-left: 30px ;"
+        >
+          Our team employed numerous various communication channels to fulfill
+          multiple functions throughout member engagement while completing this
+          project.
+          <br />
+          We utilized Messenger as our main way of live conversation throughout
+          the project's conclusion. Outside of core team meetings, here is where
+          we will communicate individual ideas, such as challenges found during
+          project work or other connected concerns. We also use this strategy to
+          organize future conferences and design possibilities for deciding on a
+          deadline for each objective before agreeing on a precise date. After
+          reviewing the objectives, we assign precise tasks to each member using
+          Trello (Appendix A) software to assist everyone have a better
+          understanding of their activities and keep up with them. Group
+          development. This is the program we discovered to have a significant
+          influence on our job efficiency, and as a result, we fulfill our
+          objectives more thoroughly and with higher quality. We utilize Google
+          tools, such as Drive and Docs, to store and distribute the data
+          uploaded by members (Appendix B). Team members may upload their work
+          and amend reports synchronously here. In terms of group meetings, we
+          will have two weekly core sessions on Friday and Sunday. On Friday, we
+          will set the objectives for the next week and resolve any outstanding
+          concerns from the previous week. We normally book a group meeting room
+          at the library for this meeting once a week. In terms of the Sunday
+          meeting, we decided that it would be an online gathering, and we
+          utilized Discord to communicate. This meeting is for everyone to
+          report on the work they have done in the last week, as well as new
+          ideas and obstacles encountered in the process, so that members may
+          better assist one another. More efficient. Finally, when there is a
+          breakdown in communication within our team, we assign each team member
+          a distinct assignment and attempt to handle the problem individually.
+          When a problem emerges, the team or a specific member will be
+          contacted promptly to resolve the problem and notify a colleague who
+          is unable to attend this urgent meeting of the solution.
+        </div>
+
+        <footer>
+          <div class="footer">    
+              <div class="row">
+              <ul>
+              <li><a class="footer.a" href="aboutus.html">About us</a></li>
+              <li><a class="footer.a" href="home.html">Our Services</a></li>
+              <li><a class="footer.a" href="privacy.html">Privacy Policy</a></li>
+              <li><a class="footer.a" href="term.html">Terms & Conditions</a></li>
+              <li><a  class="footer.a"href="#">Contact</a></li>
+              </ul>
+          </div>
+          
+          <div class="row">
+          TinMate Copyright © 2022 TinMate - All rights reserved 
+          </div>
+          </div>
+      </footer>
+    <script>
+      var Ids = [
+        "Aim",
+        "plan_pro",
+        "roles",
+        "s_lim",
+        "tool_tech",
+        "test",
+        "timef",
+        "risk",
+        "gr_com",
+      ];
+      function toggle_show_and_hide(ID) {
+        var x = document.getElementById(ID);
+        var y = document.getElementById(ID + "_t");
+        var z = document.getElementById(ID + "_tri");
+        if (x.style.display === "none") {
+          for (let Id in Ids) {
+            if (Ids[Id] != ID) {
+              var temp = document.getElementById(Ids[Id]);
+              var temp_t = document.getElementById(Ids[Id] + "_t");
+              var temp_tri = document.getElementById(Ids[Id] + "_tri");
+              temp.style.display = "none";
+              temp_t.title = "Click to show content";
+              temp_tri.style.transform = "rotate(0deg)";
+            }
+          }
+          x.style.display = "block";
+          x.scrollIntoView();
+          y.title = "Click to hide content";
+          z.style.transform = "rotate(90deg)";
+        } else {
+          x.style.display = "none";
+          y.title = "Click to show content";
+          z.style.transform = "rotate(0deg)";
+        }
+      }
+    </script>
+  </body>
 </html>

@@ -1,3 +1,4 @@
+
 .logo{
     height: 150px;
     width: 150px;
@@ -89,3 +90,97 @@ li,a,button{
     letter-spacing: 1.5 ;
     line-height: 1.6;
 }
+.content{
+    margin: 50px;
+    /* padding-top: 25px; */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info{
+    margin: 10px 40px 10px 0px;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: auto;
+}
+
+.title2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.general-info{
+    font-weight: bold;
+    color: black;
+}
+
+.email{
+    text-decoration: underline;
+    color: black;
+}
+
+
+footer{
+    margin-top: 50px;
+}
+     
+.footer{
+    background:rgb(255, 255, 255);
+    padding:10px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    border-top: 1px solid black;
+    border-style: initial;
+    opacity: 0.75;
+
+}
+    
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:rgb(0, 0, 0);
+    font-size:0.8em;
+}
+    
+.footer .row {
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    transition:0.5s;
+}
+    
+.footer .row a:hover{
+    color:rgb(252, 102, 102);
+}
+    
+.footer .row ul{
+    width:100%;
+}
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+    
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+    
+@media (max-width:720px){
+    .footer{
+        text-align:left;
+        padding:5%;
+    }
+    .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+    }
+    .footer .row a i{
+        margin:0% 3%;
+    }
+    }
+
+
+/*Scroll stuff*/
+
